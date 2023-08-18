@@ -1,0 +1,18 @@
+div#modal {
+    position: absolute;
+    background: white;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+div#modal .controls {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    margin: 73px;
+    align-items: center;
+}

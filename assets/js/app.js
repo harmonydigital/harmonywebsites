@@ -4,7 +4,16 @@ initapp=()=>{
     app.innerHTML=`
         <header>
             <div class='brand'><img class='logo' src='assets/img/beija.png'></div>
-            <div class='menu'>menu</div>
+            <div class='menu'>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <button class='btn'>Fale agora</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             
         </header>
 
@@ -12,7 +21,7 @@ initapp=()=>{
                 <div class='display'> 
                         <div class='content-text'>
                             <span>Harmony</span>
-                            <h1>Visível, leve e intuitivo.3</h1>
+                            <h1>Visível, leve e intuitivo</h1>
                         </div>
                 </div>
 
@@ -34,6 +43,8 @@ initapp=()=>{
                     <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
+                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
+                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo1.png'></div>
                         <div class="swiper-slide">Slide 2</div>
                         <div class="swiper-slide">Slide 3</div>
                         <div class="swiper-slide">Slide 4</div>
