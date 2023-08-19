@@ -9,7 +9,23 @@ initapp=()=>{
                 <nav>
                     <ul>
                         <li>
-                            <button class='btn'>Fale agora</button>
+                            <a href='#'>Galeria</a>
+                        </li>
+                       
+                        <li>
+                            <a href='#'>Sobre</a>
+                        </li>
+                        <li>
+                            <a class='btn primary' href="">
+                                <span>Fale agora</span>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class='btn inline' href="">
+                                <span>v1.0</span>
+                                <i class="fa-brands fa-github"></i>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -21,7 +37,25 @@ initapp=()=>{
                 <div class='display'> 
                         <div class='content-text'>
                             <span>Harmony</span>
-                            <h1>Visível, leve e intuitivo</h1>
+                            <h1>Visível, leve e intuitivo.</h1>
+                            <h2>ative a criatividade e comece algo novo  agora mesmo...</h2>
+                        </div>
+                        <div class='social'>
+                            <a class='' href="">
+                                
+                            <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class='' href="">
+                               
+                            <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a class='' href="">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a class='' href="">
+                                
+                                <i class="fa-brands fa-github"></i>
+                            </a>
                         </div>
                 </div>
 
