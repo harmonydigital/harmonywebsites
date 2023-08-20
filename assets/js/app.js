@@ -16,7 +16,7 @@ initapp=()=>{
                             <a href='#'>Sobre</a>
                         </li>
                         <li>
-                            <a class='btn primary' href="">
+                            <a class='btn primary convert-btn' href="">
                                 <span>Fale agora</span>
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
@@ -38,13 +38,13 @@ initapp=()=>{
                         <div class='content-text'>
                             <span class='title'>Harmony</span>
                             <h1>Visível, leve e intuitivo.</h1>
-                            <h2>ative a criatividade e comece algo novo  agora mesmo...</h2>
+                            <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
                             <a class='btn-down' href=''>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </a>
                         </div>
                         <div class='social'>
-                            <a class='' href="">    
+                            <a class='' href='https://www.instagram.com/harmony.dgt/'  target="_blank">    
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                             
@@ -66,6 +66,10 @@ initapp=()=>{
                        <h2>produtos
                        para pessoas
                        como eu e você.</h2>
+                       <a class='btn primary convert-btn' href="">
+                       <span>Fale agora</span>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
                     </div>
 
                     <div>
