@@ -1,0 +1,16 @@
+.harmonyabout {
+    
+}
+
+.harmonyabout::after {
+    content: '';
+    background-image: url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 40%;
+    height: 105vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}

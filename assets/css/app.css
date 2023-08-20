@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,900;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -27,6 +26,18 @@ header {
 header div {
     margin: 20px;
 }
+a.btn-down{
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+    width: 30px;
+    margin: 22px auto 0;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid;
+
+}
 a{
     color: black;
     text-decoration: none;
@@ -37,7 +48,8 @@ a{
     font-size: 1rem;
     margin: 0 30px;
     position: relative;
-    bottom: 10rem;
+    bottom: 15rem;
+   
 }
 .social a {
     margin: 8px 5px;
@@ -76,10 +88,13 @@ a.btn.primary {
     align-items: center;
     border-radius: 30px;
     background-image: linear-gradient(to right top, #f5c5ea, #a5e4fd);
-    /* font-weight: 300; */
+    font-weight: 600 !important;
     text-transform: uppercase;
     font-size: 0.7rem;
-    border: 1px solid black;
+    border: 1px solid white;
+    
+    box-shadow: 1px 1px 3px #8886b7cf;
+    opacity: 0.9;
 }
 .btn svg{
     margin-left: 5px;
@@ -108,11 +123,23 @@ a.btn.primary {
     text-align: center;
     display: block;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 900; 
+}
+ 
+span.title::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/lines.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
 }
 .harmonyabout h2 {
     font-size: 3rem;
     text-transform: uppercase;
+    font-weight: 900;
 }
 .harmonyabout {
     width: 90%;
@@ -127,6 +154,7 @@ a.btn.primary {
 }
 .content-text {
     padding: 50% 0 0;
+    position: relative;
 }
 .harmonyabout .content-text {
     padding: 15% 0;
@@ -140,6 +168,17 @@ a.btn.primary {
 
 
 @media(min-width:768px){
+    .harmonyabout span.title::before {
+     
+        left: -80px;
+        top: 10%;
+    }
+    .harmonyabout h2{
+      line-height: 1;
+    }
+    .harmonyabout p{
+        width: 50%;
+    }
     .brand .logo {
         width: 50px;
        
@@ -159,15 +198,46 @@ a.btn.primary {
         display: flex;
         align-items: center;
     }
-    .content-text {
-        padding: 20% 0 0;
+    .about .content-text {
+        padding:  0 10px !important; 
     }
     .harmonyabout div:last-child {
         padding: 40px;
     }
+    .display {
+       
+        background-position: inherit;
+    }
+
+    .display .content-text {
+        padding: 30% 0 0;
+    }
 }
 
 @media(min-width:1200px){
+    .display .content-text {
+        padding: 15% 0 0 !important;
+    }
+    .harmonyabout .content-text {
+        
+        width: 20%;
+    }
+    .harmonyabout h2 {
+        line-height: 1; 
+        font-size: 4.5rem;
+        letter-spacing: -5px;
+        line-height: 54px !important;
+    }
+    .harmonyabout p {
+        width: 55%;
+        margin: 0;
+    }
+    .harmonyabout div:last-child {
+        padding: 40px;
+        width: 50%;
+        margin-left: 15%;
+        margin-top: 25px;
+    }
     .display span {
         font-size: 5.5rem !important;
         letter-spacing: 27px;
@@ -188,7 +258,7 @@ a.btn.primary {
         height: 100vh;
     }
     .harmonyabout {
-        width: 70%;
+        width:85%;
         margin: 0 auto;
     }
     .menu {
