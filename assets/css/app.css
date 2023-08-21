@@ -110,11 +110,31 @@ a.btn.primary {
     opacity: 0.9;
     transition: .3s;
 }
+.controls button:last-child {
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.modal-body .btn-sucess {
+    margin: 20px auto;
+}
+.modal-body h3 {
+    text-transform: uppercase;
+    margin: 20px auto 0;
+}
 
 .btn-sucess {
     border: 1px solid;
     width: 150px;
     display: inline-flex;
+    background-color: #32FF90 !important;
     height: 36px;
     justify-content: center;
     align-items: center;
