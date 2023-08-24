@@ -27,6 +27,9 @@ header {
 header div {
     margin: 20px;
 }
+main a.btn.primary {
+    margin: 35px auto 0;
+}
 .controls {
     display: flex;
     width: 100%; 
@@ -38,7 +41,10 @@ header div {
     border: 0;
     width: 100px;
     display: flex;
-    padding: 10px 20px;
+    height: 45px;
+    padding: 30px 25px; 
+ 
+    align-items: center;
 }
 a.btn-down{
     align-items: center;
@@ -110,6 +116,9 @@ a.btn.primary {
     opacity: 0.9;
     transition: .3s;
 }
+button{
+    cursor: pointer;
+}
 .controls button:last-child {
     justify-content: flex-end;
     align-items: center;
@@ -122,12 +131,17 @@ a.btn.primary {
     text-align: center;
     padding: 15px;
 }
+
+.show{
+    display: block !important;
+}
 .modal-body .btn-sucess {
     margin: 20px auto;
 }
 .modal-body h3 {
     text-transform: uppercase;
     margin: 20px auto 0;
+    max-width: 250px;
 }
 
 .btn-sucess {

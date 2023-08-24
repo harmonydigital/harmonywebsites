@@ -13,7 +13,7 @@ arr.map((el)=>{
         event.preventDefault()
         console.log('msg')
 
-
+        return toggleModal()
         
     })
 })
