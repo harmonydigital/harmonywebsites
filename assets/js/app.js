@@ -3,17 +3,17 @@ const app = document.getElementById('app')
 initapp=()=>{
     app.innerHTML=`
         <header>
-            <div class='brand'><img class='logo' src='assets/img/beija.png'></div>
+            <div class='brand'><a href='index.html'><img class='logo' src='assets/img/beija.png'></a></div>
             <div class='menu'>
 
                 <nav>
                     <ul>
                         <li>
-                            <a href='#'>Galeria</a>
+                            <a href='#gallery'>Galeria</a>
                         </li>
                        
                         <li>
-                            <a href='#'>Sobre</a>
+                            <a  href='#about'>Sobre</a>
                         </li>
                         <li>
                             <a class='btn primary convert-btn' href="">
@@ -39,12 +39,12 @@ initapp=()=>{
                             <span class='title'>Harmony</span>
                             <h1>Visível, leve e intuitivo.</h1>
                             <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
-                            <a class='btn-down' href=''>
+                            <a class='btn-down' href='#about'>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </a>
                         </div>
                         <div class='social'>
-                            <a class='' href='https://www.instagram.com/harmony.dgt/'  target="_blank">    
+                            <a class='' href='https://www.instagram.com/harmonydigitalflow/'  target="_blank">    
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                             
@@ -59,7 +59,7 @@ initapp=()=>{
 
                 </div>
 
-                <div class='harmonyabout'>
+                <div class='harmonyabout' id='about'>
 
                     <div class='content-text'>
                        <span class='title'></span>
@@ -73,30 +73,56 @@ initapp=()=>{
                     </div>
 
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br></br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </br></br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Harmony flow é se traduz na relação produto / cliente.</p>
                     </div>
                   
                 </div>
 
-                <div class='slide'>
-                    <!-- Swipesr -->
-                    <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
-                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
-                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo1.png'></div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+               <div class='portfolio'>
+
+                    <div class='text-content'>
+                       <h3>Portfólio</h3>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                </div>
+
+                    <div class='tabs-portfolio'>
+
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'London')">Tecnologia</button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">Social Media</button>
+                            
+                        </div>
+
+                        <div id="London" class="tabcontent">
+                            <h3>Tecnologia</h3>
+                            <p>London is the capital city of England.</p>
+                        </div>
+
+                        <div id="Paris" class="tabcontent">
+                            <h4>Media Social</h4>
+                          
+                            <div class='slide' id='gallery'>
+                            <!-- Swipesr -->
+                            <div class="swiper mySwiper"> 
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media.png'></div>
+                                    <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media1.png'></div>
+                                    <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media2.png'></div>
+                                    <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media3.png'></div>
+                                    <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media4.png'></div>
+                                    
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    </div>
+
+
+
+                
+               </div>
         </main>
 
         <main>

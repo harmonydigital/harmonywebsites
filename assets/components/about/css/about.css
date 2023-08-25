@@ -1,6 +1,4 @@
-.harmonyabout {
-    
-}
+ 
 
 .harmonyabout::after {
     content: '';
@@ -8,8 +6,8 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    width: 40%;
-    height: 105vh;
+    width: 50%;
+    height: 115vh;
     position: absolute;
     right: 0;
     z-index: -1;

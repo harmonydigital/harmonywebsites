@@ -22,6 +22,10 @@
     width: 100%;
     height: 100%;
   }
+  .swiper img {
+   
+   /* border-radius: 10px; */
+  }
 
   .swiper-slide {
     text-align: center;
@@ -30,6 +34,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   border-radius: 10px;
+  
+
   }
 
   .swiper-slide img {
@@ -37,5 +44,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+   border-radius: 10px;
+
   }
  
