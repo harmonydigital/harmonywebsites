@@ -93,12 +93,12 @@ initapp=()=>{
                     <div class='tabs-portfolio'>
 
                         <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'London')">Tecnologia</button>
-                            <button class="tablinks" onclick="openCity(event, 'Paris')">Social Media</button>
+                            <button class="tablinks" onclick="openCity(event, 'apps')">Tecnologia</button>
+                            <button class="tablinks" onclick="openCity(event, 'social')">Social Media</button>
                             
                         </div>
 
-                        <div id="London" class="tabcontent"> 
+                        <div id="apps" class="tabcontent"> 
                             <div class="swiper apps"> 
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
@@ -110,7 +110,7 @@ initapp=()=>{
                         </div>
                         </div>
 
-                        <div id="Paris" class="tabcontent">
+                        <div id="social" class="tabcontent">
                             
                           
                             <div class='slide' id='gallery'>
@@ -132,7 +132,17 @@ initapp=()=>{
 
                     </div>
 
-
+                    <!-- VIDEO -->
+                    <div class='container-movie'>
+                        <div id='thismovie' class='thismovie'>
+                        <div class="container">
+                        <video poster="https://sb.vox1.net/video/poligonBG.jpg" playsinline autoplay muted loop>
+                             <source src="https://sb.vox1.net/video/poligons.mp4" type="video/mp4">
+                         </video>
+                       <p class="text">HARMONY</p>
+                     </div>
+                        </div>
+                    </div>
 
                 
                </div>
