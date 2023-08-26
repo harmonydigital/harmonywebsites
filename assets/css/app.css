@@ -107,9 +107,9 @@ a.btn.inline:hover{
 }
 a.btn.primary {
     border: 1px solid;
-    width: 150px;
+    width: 200px;
     display: inline-flex;
-    height: 36px;
+    height: 45px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -195,9 +195,8 @@ a.btn.primary:hover {
     text-align: center;
     background: transparent;
     width: 240px;
-    margin: 10% auto 0;
+    margin: 6rem auto 0;
     font-size: 1rem;
-    
     
 }
 .display span {
@@ -222,10 +221,26 @@ span.title::before {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 900;
+    line-height: .9;
 }
 .harmonyabout {
     width: 90%;
+    position: relative;
     margin: 0 auto; 
+}
+.harmonyabout span.title::before {
+    left: inherit;
+    right: 100px;
+    bottom: -40px;
+    z-index: 0;
+}
+p {
+    margin: 30px auto;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: #656565;
+    opacity: 1;
+    font-weight: 600;
 }
 .display h1 {
     font-size: 2rem;
@@ -234,12 +249,9 @@ span.title::before {
     text-transform: uppercase;
     font-weight: 300;
 }
-.content-text {
-    padding: 50% 0 0;
-    position: relative;
-}
+ 
 .harmonyabout .content-text {
-    padding: 15% 0;
+    padding: 0;
 }
 .brand .logo {
     width: 39px;
@@ -247,9 +259,34 @@ span.title::before {
     display: block;
 }
 
-
-
+.social{
+    display: none;
+}
+ 
+@media(max-width:767px){
+    .h-xs{
+        display: none !important;
+    }
+    .content-text {
+        padding: 170px 5px 0;
+        position: relative;
+    }
+    span.title::before {
+        left: inherit;
+        right: 0px;
+        bottom: 170px;
+        z-index: 0;
+    }
+    .display h1 {
+        font-size: 1.5rem;
+        
+        padding: 1px 2px;
+    }
+}
 @media(min-width:768px){
+    .social{
+        display: flex;
+    }
     .portfolio .text-content h3 {
         padding: 70px 0 50px;
         text-align: center;
@@ -262,10 +299,9 @@ span.title::before {
     }
     .harmonyabout h2{
       line-height: 1;
+      font-size: 3.6rem;
     }
-    .harmonyabout p{
-        width: 50%;
-    }
+   
     .brand .logo {
         width: 50px;
        
@@ -297,17 +333,25 @@ span.title::before {
     }
 
     .display .content-text {
-        padding: 30% 0 0;
+        padding: 210px 0 0;
+    }
+    .display .content-text h2 {
+       
+        width: 340px;
+        margin: 10rem auto  0;
     }
 }
 
 @media(min-width:1200px){
     .display .content-text {
-        padding: 15% 0 0 !important;
+        padding: 13% 0 0;
     }
     .harmonyabout .content-text {
         
         width: 20%;
+    }
+    .harmonyabout p{
+        width: 50%;
     }
     .harmonyabout h2,h3 {
         line-height: 1; 
@@ -316,7 +360,7 @@ span.title::before {
         line-height: 54px !important;
     }
     .harmonyabout p {
-        width: 55%;
+        width: 100%;
         margin: 0;
     }
     .harmonyabout div:last-child {
@@ -328,6 +372,9 @@ span.title::before {
     .display span {
         font-size: 5.5rem !important;
         letter-spacing: 27px;
+        
+    text-shadow:-3px 2px 2px #0e424977;
+    /* text-shadow: 0px 0px 9px #00dbff9e; */
     }
     .content-text {
         padding: 15% 0 0;

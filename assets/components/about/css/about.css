@@ -2,13 +2,33 @@
 
 .harmonyabout::after {
     content: '';
-    background-image: url(../img/cover.png);
+    /* background-image: url(../img/cover.png); */
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
+    background-size: contain;
     width: 50%;
     height: 115vh;
     position: absolute;
     right: 0;
     z-index: -1;
+}
+.harmonyabout{
+    height: 90vh;
+}
+@media(min-width:1250px){
+
+    .harmonyabout{
+        height: 100vh;
+    }
+.harmonyabout::after {
+    background-size: cover;
+    background-image: url(../img/cover.png);
+
+  
+}
+.harmonyabout p {
+    width: 55%;
+    margin: 0;
+    font-size: .9rem;
+}
 }
