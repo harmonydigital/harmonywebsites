@@ -291,7 +291,7 @@ p {
         display: flex;
     }
     .portfolio .text-content h3 {
-        padding: 70px 0 50px;
+        padding: 70px 0 50px !important;
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 0;
@@ -325,6 +325,8 @@ p {
  
         display: flex;
         align-items: center;
+        padding: 60px 0 0;
+        max-height: 60vh;   
     }
     .about .content-text {
         padding:  0 10px !important; 
@@ -348,6 +350,10 @@ p {
 }
 
 @media(min-width:1200px){
+    .tabs-portfolio {
+        max-width: 90%;
+        margin: 0 auto;
+    }
     .display .content-text {
         padding: 13% 0 0;
     }
