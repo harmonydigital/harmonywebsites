@@ -1,7 +1,7 @@
 /* Style the tab */
 .tab {
   overflow: hidden;
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   margin: 0 35px;
 }

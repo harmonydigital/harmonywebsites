@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/components/about/css/about.css">
     <link rel="stylesheet" href="assets/components/tabs/tabs.css">
     <link rel="stylesheet" href="assets/components/modal/modal.css">
+    <link rel="stylesheet" href="assets/components/portfolio/portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 </head>
@@ -41,7 +42,7 @@
   <!-- Initialize Swiper -->
   <script>  
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
+     
       spaceBetween: 30,
       autoplay: {
           delay: 1500,
@@ -49,9 +50,47 @@
         },
       pagination: {
         el: ".swiper-pagination",
-        clickable: true,
-      },
+        clickable: true,  
+      },breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },
+        },
     });
+    var swiper = new Swiper(".apps", {
+     
+     spaceBetween: 30,
+     autoplay: {
+         delay: 1500,
+         disableOnInteraction: false,
+       },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,  
+     },breakpoints: {
+         320: {
+           slidesPerView: 1,
+           spaceBetween: 20,
+         },
+         768: {
+           slidesPerView: 3,
+           spaceBetween: 40,
+         },
+         1024: {
+           slidesPerView: 3,
+           spaceBetween: 5,
+         },
+       },
+   });
   </script>
 
 <script>

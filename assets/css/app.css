@@ -284,13 +284,18 @@ p {
     }
 }
 @media(min-width:768px){
+    div#about p {
+        font-size: 13px;
+    }
     .social{
         display: flex;
     }
     .portfolio .text-content h3 {
         padding: 70px 0 50px;
         text-align: center;
+        text-transform: uppercase;
         margin-bottom: 0;
+        font-weight: 900;
     }
     .harmonyabout span.title::before {
      
@@ -338,7 +343,7 @@ p {
     .display .content-text h2 {
        
         width: 340px;
-        margin: 10rem auto  0;
+        margin: 35px auto  0;
     }
 }
 

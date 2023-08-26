@@ -98,13 +98,20 @@ initapp=()=>{
                             
                         </div>
 
-                        <div id="London" class="tabcontent">
-                            <h3>Tecnologia</h3>
-                            <p>London is the capital city of England.</p>
+                        <div id="London" class="tabcontent"> 
+                            <div class="swiper apps"> 
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
+                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
+                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo1.png'></div>
+                           
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
                         </div>
 
                         <div id="Paris" class="tabcontent">
-                            <h4>Media Social</h4>
+                            
                           
                             <div class='slide' id='gallery'>
                             <!-- Swipesr -->
