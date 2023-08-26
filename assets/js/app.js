@@ -87,6 +87,8 @@ initapp=()=>{
                <div class='portfolio'>
 
                     <div class='text-content'>
+                    <span class='title'></span>
+
                        <h3>Portfólio</h3>
                     </div>
 
@@ -99,11 +101,13 @@ initapp=()=>{
                         </div>
 
                         <div id="apps" class="tabcontent"> 
-                            <div class="swiper apps"> 
+                            <div class="swiper tecnologia"> 
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
                                 <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
                                 <div class="swiper-slide"><img class='logo' src='assets/img/modelo1.png'></div>
+                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo3.png'></div>
+                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo4.png'></div>
                            
                             </div>
                             <div class="swiper-pagination"></div>
@@ -135,9 +139,11 @@ initapp=()=>{
                     <!-- VIDEO -->
                     <div class='container-movie'>
                         <div id='thismovie' class='thismovie'>
+                        <span class='title'></span>
+                        <h3>Crie Transforme</h3>
                         <div class="container">
                         <video poster="https://sb.vox1.net/video/poligonBG.jpg" playsinline autoplay muted loop>
-                             <source src="https://sb.vox1.net/video/poligons.mp4" type="video/mp4">
+                             <source src="assets/img/video.mp4" type="video/mp4">
                          </video>
                        <p class="text">HARMONY</p>
                      </div>
