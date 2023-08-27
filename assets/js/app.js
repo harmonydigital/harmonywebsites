@@ -9,7 +9,7 @@ initapp=()=>{
                 <nav>
                     <ul>
                         <li>
-                            <a href='#gallery'>Galeria</a>
+                            <a href='#portfolio'>Galeria</a>
                         </li>
                        
                         <li>
@@ -84,12 +84,12 @@ initapp=()=>{
                   
                 </div>
 
-               <div class='portfolio'>
+               <div class='portfolio' id='portfolio'>
 
                     <div class='text-content'>
                     <span class='title'></span>
 
-                       <h3>Portfólio</h3>
+                       <h3>Galeria Portfólio</h3>
                     </div>
 
                     <div class='tabs-portfolio'>
@@ -97,22 +97,43 @@ initapp=()=>{
                         <div class="tab">
                             <button class="tablinks" onclick="openCity(event, 'apps')">Tecnologia</button>
                             <button class="tablinks" onclick="openCity(event, 'social')">Social Media</button>
-                            
                         </div>
 
                         <div id="apps" class="tabcontent"> 
-                            <div class="swiper tecnologia"> 
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
-                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
-                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo1.png'></div>
-                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo3.png'></div>
-                                <div class="swiper-slide"><img class='logo' src='assets/img/modelo4.png'></div>
-                           
+                            <div class='slide' id='gallery'>
+
+                                <div class="swiper tecnologia"> 
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo.png'></div>
+                                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo2.png'></div>
+                                        <div class="swiper-slide">
+                                            <div class='overlaygallery'>
+                                              
+                                                <div class='text-content'>  
+                                                    <span>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </span>
+                                                    <div>
+                                                        <h4>Web app Cardápio digital</h4>
+                                                        <p>app entrega pedidos em tempo real para restaurantes de praia.</p> 
+                                                    </div>
+                                                    <span>
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </div>
+                                             
+                                            </div>
+                                                <img class='logo' src='assets/img/modelo1.png'>
+                                           
+
+                                        </div>
+                                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo3.png'></div>
+                                        <div class="swiper-slide"><img class='logo' src='assets/img/modelo4.png'></div>
+                                    </div>
+                                <div class="swiper-pagination"></div>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                        </div>
+                   </div>
 
                         <div id="social" class="tabcontent">
                             
