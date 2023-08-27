@@ -296,6 +296,7 @@ p {
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: 900;
+        font-size: 3rem !important;
     }
     .harmonyabout span.title::before {
      

@@ -17,4 +17,4 @@ function openCity(evt, cityName) {
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[0].style.display = "block";
   }
-  console.log(tabcontent)
+ 
