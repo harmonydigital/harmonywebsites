@@ -113,8 +113,21 @@
     height: 100%;
     color: white;
     border-radius: 10px;
-    display: none;
-    
+    /* display:block; */
+    /* background-image: linear-gradient(to right top, #a5e4fd, #f3b9e6); */
+    background-image: linear-gradient(238deg, transparent,  #07070cab);
+    transform: scaleY(0);
+     transition: 1s;
+     top:100%
+
+}
+.swiper-slide:hover .overlaygallery {
+
+  transform: scaleY(1);
+  transition: .5s;
+  top:0%
+
+
 }
 .overlaygallery .text-content {
   position: fixed;
