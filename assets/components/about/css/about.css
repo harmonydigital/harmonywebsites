@@ -15,15 +15,16 @@
 .harmonyabout{
     height: 90vh;
 }
-@media(min-width:1250px){
+@media(min-width:1300px){
 
     .harmonyabout{
         height: 100vh;
+        overflow: hidden;
     }
 .harmonyabout::after {
     background-size: cover;
     background-image: url(../img/cover.png);
-
+    right: -13rem;
   
 }
 .harmonyabout p {
@@ -31,4 +32,8 @@
     margin: 0;
     font-size: .9rem;
 }
+.harmonyabout h2{
+    
+    width: 450px;
+  }
 }
